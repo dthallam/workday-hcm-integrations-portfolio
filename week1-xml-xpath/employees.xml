@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Company_Workers>
+    <Worker status="Active">
+        <Employee_ID>1001</Employee_ID>
+        <Name>
+            <First_Name>Aarav</First_Name>
+            <Last_Name>Sharma</Last_Name>
+        </Name>
+        <Department>HR Operations</Department>
+        <Location>Bengaluru</Location>
+        <Hire_Date>2021-03-15</Hire_Date>
+        <Salary currency="USD">65000</Salary>
+        <Manager_ID>1005</Manager_ID>
+    </Worker>
+    <Worker status="Active">
+        <Employee_ID>1002</Employee_ID>
+        <Name>
+            <First_Name>Priya</First_Name>
+            <Last_Name>Nair</Last_Name>
+        </Name>
+        <Department>IT Integrations</Department>
+        <Location>Hyderabad</Location>
+        <Hire_Date>2022-07-01</Hire_Date>
+        <Salary currency="USD">92000</Salary>
+        <Manager_ID>1008</Manager_ID>
+    </Worker>
+    <Worker status="Terminated">
+        <Employee_ID>1003</Employee_ID>
+        <Name>
+            <First_Name>Rohan</First_Name>
+            <Last_Name>Verma</Last_Name>
+        </Name>
+        <Department>Finance</Department>
+        <Location>Bengaluru</Location>
+        <Hire_Date>2019-11-10</Hire_Date>
+        <Salary currency="USD">78000</Salary>
+        <Manager_ID>1005</Manager_ID>
+    </Worker>
+    <Worker status="Active">
+        <Employee_ID>1004</Employee_ID>
+        <Name>
+            <First_Name>Sneha</First_Name>
+            <Last_Name>Reddy</Last_Name>
+        </Name>
+        <Department>HR Operations</Department>
+        <Location>Hyderabad</Location>
+        <Hire_Date>2023-01-20</Hire_Date>
+        <Salary currency="USD">58000</Salary>
+        <Manager_ID>1005</Manager_ID>
+    </Worker>
+    <Worker status="Active">
+        <Employee_ID>1005</Employee_ID>
+        <Name>
+            <First_Name>Vikram</First_Name>
+            <Last_Name>Menon</Last_Name>
+        </Name>
+        <Department>HR Operations</Department>
+        <Location>Bengaluru</Location>
+        <Hire_Date>2018-05-12</Hire_Date>
+        <Salary currency="USD">115000</Salary>
+        <Manager_ID>1010</Manager_ID>
+    </Worker>
+    <Worker status="Active">
+        <Employee_ID>1006</Employee_ID>
+        <Name>
+            <First_Name>Ananya</First_Name>
+            <Last_Name>Iyer</Last_Name>
+        </Name>
+        <Department>Payroll</Department>
+        <Location>Remote</Location>
+        <Hire_Date>2020-09-01</Hire_Date>
+        <Salary currency="USD">84000</Salary>
+        <Manager_ID>1008</Manager_ID>
+    </Worker>
+    <Worker status="On_Leave">
+        <Employee_ID>1007</Employee_ID>
+        <Name>
+            <First_Name>Karthik</First_Name>
+            <Last_Name>Rao</Last_Name>
+        </Name>
+        <Department>IT Integrations</Department>
+        <Location>Hyderabad</Location>
+        <Hire_Date>2021-06-18</Hire_Date>
+        <Salary currency="USD">88000</Salary>
+        <Manager_ID>1008</Manager_ID>
+    </Worker>
+    <Worker status="Active">
+        <Employee_ID>1008</Employee_ID>
+        <Name>
+            <First_Name>Meera</First_Name>
+            <Last_Name>Desai</Last_Name>
+        </Name>
+        <Department>IT Integrations</Department>
+        <Location>Bengaluru</Location>
+        <Hire_Date>2017-02-14</Hire_Date>
+        <Salary currency="USD">125000</Salary>
+        <Manager_ID>1010</Manager_ID>
+    </Worker>
+    <Worker status="Active">
+        <Employee_ID>1009</Employee_ID>
+        <Name>
+            <First_Name>Arjun</First_Name>
+            <Last_Name>Patel</Last_Name>
+        </Name>
+        <Department>Payroll</Department>
+        <Location>Hyderabad</Location>
+        <Hire_Date>2024-04-01</Hire_Date>
+        <Salary currency="USD">62000</Salary>
+        <Manager_ID>1006</Manager_ID>
+    </Worker>
+    <Worker status="Active">
+        <Employee_ID>1010</Employee_ID>
+        <Name>
+            <First_Name>Divya</First_Name>
+            <Last_Name>Kulkarni</Last_Name>
+        </Name>
+        <Department>Executive</Department>
+        <Location>Bengaluru</Location>
+        <Hire_Date>2016-08-22</Hire_Date>
+        <Salary currency="USD">160000</Salary>
+        <Manager_ID>None</Manager_ID>
+    </Worker>
+</Company_Workers>

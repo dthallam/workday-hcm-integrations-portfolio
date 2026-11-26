@@ -1,0 +1,9 @@
+Employee_ID,First_Name,Last_Name,Department,Status,Salary,Location
+1001,Aarav,Sharma,HR Operations,Active,65000,Bengaluru
+1002,Priya,Nair,IT Integrations,Active,92000,Hyderabad
+1004,Sneha,Reddy,HR Operations,Active,58000,Hyderabad
+1005,Vikram,Menon,HR Operations,Active,115000,Bengaluru
+1006,Ananya,Iyer,Payroll,Active,84000,Remote
+1008,Meera,Desai,IT Integrations,Active,125000,Bengaluru
+1009,Arjun,Patel,Payroll,Active,62000,Hyderabad
+1010,Divya,Kulkarni,Executive,Active,160000,Bengaluru

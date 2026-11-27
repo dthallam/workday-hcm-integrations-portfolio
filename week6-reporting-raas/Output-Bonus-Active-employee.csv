@@ -1,0 +1,9 @@
+Employee_ID,First_Name,Last_Name,Department,Status,Salary,Location,Hire_Date,Pay_Band,Bonus
+001001,Aarav,Sharma,HR Operations,Active,65000.00,Bengaluru,03/15/2021,Standard_Band,5000.00
+001002,Priya,Nair,IT Integrations,Active,92000.00,Hyderabad,07/01/2022,Senior_Band,10000.00
+001004,Sneha,Reddy,HR Operations,Active,58000.00,Hyderabad,01/20/2023,Standard_Band,2000.00
+001005,Vikram,Menon,HR Operations,Active,115000.00,Bengaluru,05/12/2018,Executive_Band,4000.00
+001006,Ananya,Iyer,Payroll,Active,84000.00,Remote,09/01/2020,Senior_Band,6000.00
+001008,Meera,Desai,IT Integrations,Active,125000.00,Bengaluru,02/14/2017,Executive_Band,12000.00
+001009,Arjun,Patel,Payroll,Active,62000.00,Hyderabad,04/01/2024,Standard_Band,2500.00
+001010,Divya,Kulkarni,Executive,Active,160000.00,Bengaluru,08/22/2016,Executive_Band,7000.00

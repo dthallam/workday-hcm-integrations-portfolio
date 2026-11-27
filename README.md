@@ -1,6 +1,6 @@
 # Workday HCM Integrations Portfolio
 
-A hands-on techno-functional portfolio combining **9+ years of enterprise HR Operations experience in PeopleSoft HCM** with practical Workday integration engineering skills—including XML, XPath, XSLT transformations, REST APIs, SFTP/PGP security, and Workday object modeling.
+A hands-on techno-functional portfolio combining **9+ years of enterprise HR Operations experience in PeopleSoft HCM** with practical Workday integration engineering skills—including XML, XPath, XSLT transformations, REST APIs, SFTP/PGP security, Workday object modeling, RaaS, EIBs, and Core Connectors.
 
 ## Bridging PeopleSoft HCM Experience to Workday Integrations
 
@@ -11,19 +11,19 @@ Having managed global employee lifecycle operations, data governance, and large-
 | **Data Architecture** | Effective-dated Job Data rows, retro changes, and future-dated hires/terminations | Business Objects (BO/RBO), Effective Date vs. Entry Date logic, and Reference ID mapping |
 | **Data Governance** | End-to-end employee lifecycle validation and multi-country pre-payroll input auditing | XPath filtering, XSLT data formatting, conditional mapping (`<xsl:choose>`), and exception handling |
 | **Security & Access** | Role-based user profiles and permission-list governance | Integration System Users (ISUs), Security Groups (ISSGs), and Domain Security Policies |
-| **Reporting & Delivery** | Operational analytics (Power BI, Power Query, QuickSight) and batch workflow governance | Custom Reports, RaaS, SFTP (SSH key auth), and PGP file encryption |
+| **Reporting & Delivery** | Operational analytics (Power BI, Power Query, QuickSight) and batch workflow governance | Advanced Reports, Calculated Fields, RaaS, EIBs, Core Connectors, SFTP, and PGP encryption |
 
 ---
 
 ## Completed Modules
 
 ### Week 1: XML & XPath Fundamentals
-* **Dataset:** [`week1-xml-xpath/employees.xml`](./week1-xml-xpath/employees.xml) — Mock 10-worker HR XML feed with nested parent-child elements and status attributes.
+* **Dataset:** [`week1-xml-xpath/employees.xml`](./week1-xml-xpath/employees.xml) — Mock 10-worker HR XML feed with nested parent-child elements, compensation/bonus nodes, and status attributes.
 * **Solutions:** [`week1-xml-xpath/xpath-solutions.md`](./week1-xml-xpath/xpath-solutions.md) — Validated XPath queries covering node navigation, attribute/text/numeric filtering, and record count audits.
 
 ### Week 2: XSLT Document Transformation
 * **Stylesheet:** [`week2-xslt/active-employees-to-csv.xsl`](./week2-xslt/active-employees-to-csv.xsl) — Saxon-tested XSLT transforming raw HR XML into a vendor-ready CSV.
-* **Output:** [`week2-xslt/output-active-employees.csv`](./week2-xslt/output-active-employees.csv) — Active-worker extract featuring 6-digit zero-padded Employee IDs, two-decimal salary formatting, `MM/DD/YYYY` date reformatting, and conditional `<xsl:choose>` Pay Band logic.
+* **Output:** [`week2-xslt/output-active-employees.csv`](./week2-xslt/output-active-employees.csv) — Active-worker extract featuring 6-digit zero-padded Employee IDs, two-decimal `Salary` and `Bonus` formatting, `MM/DD/YYYY` date reformatting, and conditional `<xsl:choose>` Pay Band logic.
 
 ### Week 3: REST APIs, JSON & File Security
 * **Documentation:** [`week3-apis-security/api-and-security-notes.md`](./week3-apis-security/api-and-security-notes.md) — Live `GET` (`200 OK`) and `POST` (`201 Created`) REST API testing via Hoppscotch, HTTP status code troubleshooting, and SFTP/PGP encryption architecture.
@@ -31,12 +31,20 @@ Having managed global employee lifecycle operations, data governance, and large-
 ### Week 4: Workday Core HCM Object Model & Business Processes
 * **Architecture Map:** [`week4-workday-architecture/object-model-and-bp-map.md`](./week4-workday-architecture/object-model-and-bp-map.md) — Analysis of 1-to-1 vs. 1-to-Many Business Object relationships, WID vs. Reference ID best practices, and Business Process (BP) completion triggers.
 
+### Week 5: Integration Security Architecture
+* **Documentation:** [`week5-integration-security/security-architecture.md`](./week5-integration-security/security-architecture.md) — 3-layer security chain (ISU → ISSG → Domain Security Policies), Constrained vs. Unconstrained groups, `Get` vs. `Put` least-privilege rules, and `Activate Pending Security Policy Changes` troubleshooting.
+
+### Week 6: Custom Reports, Calculated Fields & RaaS
+* **Documentation:** [`week6-reporting-raas/custom-reports-and-raas.md`](./week6-reporting-raas/custom-reports-and-raas.md) — Advanced Reports vs. Simple Reports, stacking `Extract Single Instance (ESI)` and `Lookup Related Value (LRV)` Calculated Fields, `Evaluate Expression` mapping, and exposing Reports-as-a-Service (RaaS).
+
+### Week 7: EIBs & Core Connectors
+* **Documentation:** [`week7-eib-core-connectors/eib-and-core-connectors.md`](./week7-eib-core-connectors/eib-and-core-connectors.md) — Outbound EIB 3-step pipeline (`Get Data → Transform → Deliver`), Inbound EIB bulk loading, and Core Connector: Worker delta detection paired with Document Transformation (DT).
+
 ---
 
 ## Upcoming Modules
-* **Week 5:** Integration Security Architecture (ISUs, ISSGs, Domain Security Policies)
-* **Week 6:** Custom Reports, Calculated Fields & Reports-as-a-Service (RaaS)
-* **Weeks 7–10:** EIB, Core Connectors, Document Transformation, and End-to-End Integration Design Document (IDD)
+* **Week 8:** Document Transformation (DT), Workday Studio Overview & Integration Error Handling
+* **Weeks 9–10:** End-to-End Integration Design Document (IDD) & Capstone Portfolio Review
 
 ## Core Tools & Stack
-`XML` • `XPath` • `XSLT (Saxon)` • `REST APIs / JSON` • `SFTP & PGP` • `PeopleSoft HCM` • `Kronos (UKG)` • `Power BI` • `Power Query` • `Advanced MS Excel`
+`XML` • `XPath` • `XSLT (Saxon)` • `REST APIs / JSON` • `SFTP & PGP` • `Workday RaaS / EIB / Core Connectors` • `PeopleSoft HCM` • `Kronos (UKG)` • `Power BI` • `Power Query` • `Advanced MS Excel`
